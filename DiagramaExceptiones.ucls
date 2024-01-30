@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="ivmatisfilesorter.exception.BaseDatosException" project="ProyectoClasificacion" 
+    file="/ProyectoClasificacion/src/ivmatisfilesorter/exception/BaseDatosException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="301" width="285" x="328" y="296"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="ivmatisfilesorter.exception.EtiquetaException" project="ProyectoClasificacion" 
+    file="/ProyectoClasificacion/src/ivmatisfilesorter/exception/EtiquetaException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="169" width="235" x="653" y="296"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="ivmatisfilesorter.exception.ProyectoException" project="ProyectoClasificacion" 
+    file="/ProyectoClasificacion/src/ivmatisfilesorter/exception/ProyectoException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="213" width="308" x="928" y="296"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="ivmatisfilesorter.exception.ArchivoException" project="ProyectoClasificacion" 
+    file="/ProyectoClasificacion/src/ivmatisfilesorter/exception/ArchivoException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="213" width="299" x="1276" y="296"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="java.lang.Exception" project="QuitoSemestreReto" 
+    file="C:/Program Files/Java/jdk1.8.0_321/jre/lib/rt.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="213" width="329" x="846" y="-57"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="6">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="7">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
